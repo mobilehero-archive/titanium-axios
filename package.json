@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/axios/axios.git"
+    "url": "https://github.com/brentonhouse/titanium-axios.git"
   },
   "keywords": [
     "xhr",
@@ -25,11 +25,18 @@
     "node"
   ],
   "author": "Matt Zabriskie",
+  "maintainers": [
+    {
+      "name": "Brenton House",
+      "email": "brenton.house@gmail.com",
+      "url": "https://brenton.house"
+    }
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/axios/axios/issues"
+    "url": "https://github.com/brentonhouse/titanium-axios/issues"
   },
-  "homepage": "https://github.com/axios/axios",
+  "homepage": "https://github.com/brentonhouse/titanium-axios",
   "devDependencies": {
     "bundlesize": "^0.5.7",
     "coveralls": "^2.11.9",
