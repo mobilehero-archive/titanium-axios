@@ -1,6 +1,6 @@
 {
   "name": "@titanium/axios",
-  "version": "0.18.1-0",
+  "version": "0.18.1-1",
   "description": "Promise based HTTP client for the browser and node.js",
   "main": "index.js",
   "scripts": {
@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/brentonhouse/titanium-axios",
   "devDependencies": {
-    "bundlesize": "^0.5.7",
+    "bundlesize": "^0.18.0",
     "coveralls": "^2.11.9",
     "es6-promise": "^4.0.5",
     "grunt": "^1.0.1",
@@ -75,10 +75,10 @@
     "load-grunt-tasks": "^3.5.2",
     "minimist": "^1.2.0",
     "sinon": "^1.17.4",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1",
+    "typescript": "^2.0.3",
     "url-search-params": "^0.6.1",
-    "typescript": "^2.0.3"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
   "browser": {
     "./lib/adapters/http.js": "./lib/adapters/xhr.js"
