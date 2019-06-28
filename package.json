@@ -1,6 +1,6 @@
 {
   "name": "@titanium/axios",
-  "version": "0.19.0-0",
+  "version": "0.19.0-1",
   "description": "Promise based HTTP client for the browser and node.js",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "postversion": "git push && git push --tags",
     "examples": "node ./examples/server.js",
     "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "fix": "eslint --fix lib/**/*.js"
+    "fix": "eslint --fix lib/**/*.js",
+    "list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,12 @@
     "http",
     "ajax",
     "promise",
-    "node"
+    "node",
+    "titanium",
+    "mobile",
+    "axway",
+    "appcelerator",
+    "brentonhouse"
   ],
   "author": "Matt Zabriskie",
   "maintainers": [
