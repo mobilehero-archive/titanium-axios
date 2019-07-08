@@ -11,7 +11,9 @@
     "version": "npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json",
     "postversion": "git push && git push --tags",
     "examples": "node ./examples/server.js",
-    "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "fix": "eslint --fix lib/**/*.js",
+    "list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz"
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,12 @@
     "http",
     "ajax",
     "promise",
-    "node"
+    "node",
+    "titanium",
+    "mobile",
+    "axway",
+    "appcelerator",
+    "brentonhouse"
   ],
   "author": "Matt Zabriskie",
   "maintainers": [

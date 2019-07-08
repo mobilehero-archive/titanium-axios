@@ -16,3 +16,15 @@ Gruntfile.js
 karma.conf.js
 webpack.*.js
 sauce_connect.log
+
+
+.eslintignore
+.eslintrc.yaml
+.eslintrc
+.eslintrc.yml
+
+
+index.d.ts
+UPGRADE_GUIDE.md
+/dist/
+CHANGELOG.md
