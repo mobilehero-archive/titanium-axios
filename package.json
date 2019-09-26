@@ -1,7 +1,7 @@
 {
   "name": "@titanium/axios",
-  "version": "0.18.1-1",
-  "description": "Promise based HTTP client for the browser and node.js",
+  "version": "0.18.1-2",
+  "description": "Promise based HTTP client for the Titanium Native Mobile apps",
   "main": "index.js",
   "scripts": {
     "test": "grunt test && bundlesize",

@@ -1,10 +1,20 @@
+
+<a href="#titaniumaxios">
+	<p align="center">
+		<img src="https://cdn.secure-api.org/images/warning-sign-area51.png" width="80%" />
+		<img src="https://cdn.secure-api.org/images/border-line-3.png" width="70%" height="50" />
+	</p>
+</a>
+
 # @titanium/axios
 
-![https://www.npmjs.com/package/@titanium/axios](https://img.shields.io/npm/v/@titanium/axios.png)
+
+[![@titanium/axios](https://img.shields.io/npm/v/@titanium/axios.png)](https://www.npmjs.com/package/@titanium/axios)
+
 
 Titanium axios is a fork of **`axios`** that adds support for Titanium native mobile apps.
 
-This version of @titanium/axios is based on **`axios 0.19.0`**
+This version of @titanium/axios is based on **`axios 0.18.0`**
 
 Many thanks to [@janvennemann](https://github.com/janvennemann) for creating the Titanium adapter!
 
