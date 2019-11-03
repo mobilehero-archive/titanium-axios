@@ -1,11 +1,5 @@
 # Changelog
 
-### 0.18.1 (May 31, 2019)
-
-Security Fix:
-
-- Destroy stream on exceeding maxContentLength (fixes [#1098](https://github.com/axios/axios/issues/1098)) ([#1485](https://github.com/axios/axios/pull/1485)) - Gadzhi Gadzhiev
-
 ### 0.19.0 (May 30, 2019)
 
 Fixes and Functionality:
@@ -112,6 +106,13 @@ below) or via reviews and triaging on GitHub:
 - Tim Garthwaite <tim.garthwaite@jibo.com>
 - Tim Johns <timjohns@yahoo.com>
 - Yutaro Miyazaki <yutaro@studio-rubbish.com>
+
+
+### 0.18.1 (May 31, 2019)
+
+Security Fix:
+
+- Destroy stream on exceeding maxContentLength (fixes [#1098](https://github.com/axios/axios/issues/1098)) ([#1485](https://github.com/axios/axios/pull/1485)) - Gadzhi Gadzhiev
 
 ### 0.18.0 (Feb 19, 2018)
 
