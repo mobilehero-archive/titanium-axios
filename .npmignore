@@ -28,3 +28,7 @@ index.d.ts
 UPGRADE_GUIDE.md
 /dist/
 CHANGELOG.md
+
+
+.dependabot
+.github
