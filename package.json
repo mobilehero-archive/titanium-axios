@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/axios",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "⭐  Axway Amplify module for using axios with http/https/api with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -16,8 +16,8 @@
 		"fix": "eslint --fix lib/**/*.js",
 		"prep": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"test": "npm install --ignore-scripts && npm run prep",
-		"prepublishOnly2": "git pull && npm test && bump insane",
-		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
+		"prepublishOnly": "git pull && npm test && bump insane",
+		"prepublishOnly3": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"repository": {
 		"type": "git",
