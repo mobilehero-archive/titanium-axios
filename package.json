@@ -1,10 +1,10 @@
 {
 	"name": "@titanium/axios",
-	"version": "0.19.0-6",
-	"description": "Promise based HTTP client for the Titanium Native Mobile apps",
+	"version": "1.0.1",
+	"description": "⭐  Axway Amplify module for using axios with http/https/api with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
-		"test": "grunt test && bundlesize",
+		"test2": "grunt test && bundlesize",
 		"start": "node ./sandbox/server.js",
 		"build": "NODE_ENV=production grunt build",
 		"preversion_": "npm test",
@@ -13,7 +13,11 @@
 		"examples": "node ./examples/server.js",
 		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-		"fix": "eslint --fix lib/**/*.js"
+		"fix": "eslint --fix lib/**/*.js",
+		"prep": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"test": "npm install --ignore-scripts && npm run prep",
+		"prepublishOnly2": "git pull && npm test && bump insane",
+		"prepublishOnly": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"repository": {
 		"type": "git",
@@ -29,7 +33,16 @@
 		"mobile",
 		"axway",
 		"appcelerator",
-		"brentonhouse"
+		"plugin",
+		"amplify",
+		"api-builder",
+		"appcelerator-titanium",
+		"titanium-sdk",
+		"titanium-mobile",
+		"titanium-module",
+		"axway-sdk",
+		"axway-amplify",
+		"brenton-house"
 	],
 	"author": "Matt Zabriskie",
 	"maintainers": [
@@ -43,7 +56,7 @@
 	"bugs": {
 		"url": "https://github.com/brentonhouse/titanium-axios/issues"
 	},
-	"homepage": "https://github.com/brentonhouse/titanium-axios",
+	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"devDependencies": {
 		"bundlesize": "^0.17.0",
 		"coveralls": "^3.0.0",
