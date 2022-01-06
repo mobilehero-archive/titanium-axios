@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/axios",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "⭐  Axway Amplify module for using axios with http/https/api with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -21,7 +21,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/brentonhouse/titanium-axios.git"
+		"url": "https://github.com/mobilehero-archive/titanium-axios.git"
 	},
 	"keywords": [
 		"xhr",
@@ -54,7 +54,7 @@
 	],
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/brentonhouse/titanium-axios/issues"
+		"url": "https://github.com/mobilehero-archive/titanium-axios/issues"
 	},
 	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
 	"devDependencies": {
