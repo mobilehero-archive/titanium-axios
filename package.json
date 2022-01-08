@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/axios",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "⭐  Axway Amplify module for using axios with http/https/api with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -14,10 +14,12 @@
 		"list-files": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"coveralls": "cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
 		"fix": "eslint --fix lib/**/*.js",
-		"prep": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"test": "npm install --ignore-scripts && npm run prep",
+		"lint": "eslint . --fix",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prep": "npm install --ignore-scripts",
+		"test": "npm run prep",
 		"prepublishOnly": "git pull && npm test && bump insane",
-		"prepublishOnly3": "git pull && npm test && npm audit fix && bump insane"
+		"prepublishOnly2": "git pull && npm test && npm audit fix && bump insane"
 	},
 	"repository": {
 		"type": "git",
@@ -57,50 +59,14 @@
 		"url": "https://github.com/mobilehero-archive/titanium-axios/issues"
 	},
 	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
-	"devDependencies": {
-		"bundlesize": "^0.17.0",
-		"coveralls": "^3.0.0",
-		"es6-promise": "^4.2.4",
-		"grunt": "^1.0.2",
-		"grunt-banner": "^0.6.0",
-		"grunt-cli": "^1.2.0",
-		"grunt-contrib-clean": "^1.1.0",
-		"grunt-contrib-watch": "^1.0.0",
-		"grunt-eslint": "^20.1.0",
-		"grunt-karma": "^2.0.0",
-		"grunt-mocha-test": "^0.13.3",
-		"grunt-ts": "^6.0.0-beta.19",
-		"grunt-webpack": "^1.0.18",
-		"istanbul-instrumenter-loader": "^1.0.0",
-		"jasmine-core": "^2.4.1",
-		"karma": "^1.3.0",
-		"karma-chrome-launcher": "^2.2.0",
-		"karma-coverage": "^1.1.1",
-		"karma-firefox-launcher": "^1.1.0",
-		"karma-jasmine": "^1.1.1",
-		"karma-jasmine-ajax": "^0.1.13",
-		"karma-opera-launcher": "^1.0.0",
-		"karma-safari-launcher": "^1.0.0",
-		"karma-sauce-launcher": "^1.2.0",
-		"karma-sinon": "^1.0.5",
-		"karma-sourcemap-loader": "^0.3.7",
-		"karma-webpack": "^1.7.0",
-		"load-grunt-tasks": "^3.5.2",
-		"minimist": "^1.2.0",
-		"mocha": "^5.2.0",
-		"sinon": "^4.5.0",
-		"typescript": "^2.8.1",
-		"url-search-params": "^0.10.0",
-		"webpack": "^1.13.1",
-		"webpack-dev-server": "^1.14.1"
-	},
+	"devDependencies": {},
 	"browser": {
 		"./lib/adapters/http.js": "./lib/adapters/xhr.js"
 	},
 	"typings": "./index.d.ts",
 	"dependencies": {
-		"follow-redirects": "1.5.10",
-		"is-buffer": "^2.0.2"
+		"follow-redirects": "1.14.6",
+		"is-buffer": "^2.0.5"
 	},
 	"bundlesize": [
 		{
