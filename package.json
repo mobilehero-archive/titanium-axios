@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/axios",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "⭐  Axway Amplify module for using axios with http/https/api with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
