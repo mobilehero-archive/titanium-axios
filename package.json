@@ -1,6 +1,6 @@
 {
 	"name": "@titanium/axios",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "⭐  Axway Amplify module for using axios with http/https/api with Appcelerator Titanium SDK",
 	"main": "index.js",
 	"scripts": {
@@ -50,7 +50,6 @@
 	"maintainers": [
 		{
 			"name": "Brenton House",
-			"email": "brenton.house@gmail.com",
 			"url": "https://brenton.house"
 		}
 	],
@@ -59,12 +58,35 @@
 		"url": "https://github.com/mobilehero-archive/titanium-axios/issues"
 	},
 	"homepage": "https://brenton.house/saying-goodbye-to-axway-amplify-titanium-31a44f3671de",
-	"devDependencies": {},
 	"browser": {
 		"./lib/adapters/http.js": "./lib/adapters/xhr.js"
 	},
 	"typings": "./index.d.ts",
 	"dependencies": {
+		"@geek/cache": "^1.0.2",
+		"@geek/config": "^0.2.4",
+		"@geek/dotenv": "^0.0.9",
+		"@geek/jsonc": "^1.0.4",
+		"@geek/jwt": "^1.0.1",
+		"@geek/logger": "^1.0.18",
+		"@geek/retry": "^1.0.0",
+		"@geek/spawn": "^0.0.3",
+		"@geek/spinner": "^1.0.0",
+		"@geek/tld": "^2.0.1-1",
+		"@titanium/appcelerator": "^6.0.6",
+		"@titanium/bluebird": "^3.7.12",
+		"@titanium/errors": "^1.0.9",
+		"@titanium/essentials": "^1.0.40",
+		"@titanium/events": "^1.0.21",
+		"@titanium/eventsource": "^1.0.6",
+		"@titanium/jwt": "^1.0.12",
+		"@titanium/module-copier": "^1.0.15",
+		"@titanium/please": "^1.0.18",
+		"@titanium/polyfill": "^1.0.19",
+		"@titanium/querystring": "^1.0.5",
+		"@titanium/tiapp-xml": "^1.0.17",
+		"@titanium/titanium": "^5.4.10",
+		"@titanium/turbo": "^2.2.26",
 		"follow-redirects": "1.14.6",
 		"is-buffer": "^2.0.5"
 	},
@@ -73,5 +95,10 @@
 			"path": "./dist/axios.min.js",
 			"threshold": "5kB"
 		}
-	]
+	],
+	"devDependencies": {
+		"@geek/eslint-config": "^1.0.3",
+		"@titanium/eslint-config": "^1.0.12",
+		"eslint": "^8.6.0"
+	}
 }
